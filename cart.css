@@ -1,0 +1,187 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fffdf7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background: #f5d9d5;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  header h1 {
+    color: #6d3d2e;
+  }
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #6d3d2e;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #a14e3a;
+  }
+
+/* Cart Section */
+.cart {
+    padding: 3rem 2rem;
+    background-color: #fffdf7;
+  }
+  
+  .cart h2 {
+    text-align: center;
+    color: #6d3d2e;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Cart Table */
+  .cart table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .cart th,
+  .cart td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .cart th {
+    background-color: #f5d9d5;
+    color: #6d3d2e;
+    font-weight: bold;
+  }
+  
+  .cart td {
+    color: #333;
+  }
+  
+  /* Quantity Buttons */
+  .cart form {
+    display: inline-block;
+    margin: 0 4px;
+  }
+  
+  .cart button {
+    background: #6d3d2e;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cart button:hover {
+    background-color: #5a2e24;
+  }
+  
+  /* Remove Button */
+  .cart td form button[name="remove"] {
+    background-color: #d9534f;
+  }
+  
+  .cart td form button[name="remove"]:hover {
+    background-color: #c9302c;
+  }
+  
+  /* Grand Total Row */
+  .cart tr:last-child td {
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #fdf1ef;
+  }
+  
+  /* Empty Cart Message */
+  .cart p {
+    text-align: center;
+    color: #6d3d2e;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    background: #f5d9d5;
+    color: #6d3d2e;
+  }
+  
+  .footer-container div {
+    flex: 1 1 220px;
+    margin: 1rem;
+  }
+  
+  .footer-container h3, .footer-container h4 {
+    margin-bottom: 0.8rem;
+  }
+  
+  .footer-contact p,
+  .footer-about p {
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #6d3d2e;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #a14e3a;
+  }
+  
+  .footer-social .social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .footer-social .social-icons img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover; /* or 'cover' if you want a tight crop */
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .footer-social .social-icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  footer .copyright {
+    text-align: center;
+    padding: 1rem 0;
+    background: #ecd2cf;
+    font-size: 0.85rem;
+  }
+  
