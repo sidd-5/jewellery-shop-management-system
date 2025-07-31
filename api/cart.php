@@ -58,19 +58,19 @@ if (isset($_POST['remove'])) {
 <head>
   <meta charset="UTF-8">
   <title>Cart - BhoomiJewels</title>
-  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="/public/cart.css">
 </head>
 <body>
   <header>
     <h1>BhoomiJewels</h1>
     <nav>
-      <a href="index.php">Home</a>
-      <a href="shop.php">Shop</a>
-      <a href="cart.php">Cart</a>
+      <a href="/public/index.php">Home</a>
+      <a href="/public/shop.php">Shop</a>
+      <a href="/public/cart.php">Cart</a>
       <?php if (isset($_SESSION["user_name"])): ?>
-    <p>Welcome, <?= $_SESSION["user_name"]; ?> | <a href="logout.php">Logout</a></p>
+    <p>Welcome, <?= $_SESSION["user_name"]; ?> | <a href="/public/logout.php">Logout</a></p>
 <?php else: ?>
-    <a href="login.php">Login</a> | <a href="register.php">Register</a>
+    <a href="/public/login.php">Login</a> | <a href="/public/register.php">Register</a>
 <?php endif; ?>
     </nav>
   </header>

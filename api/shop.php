@@ -12,19 +12,19 @@ $result = $connect->query("SELECT * FROM products");
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shop - BhoomiJewels</title>
-  <link rel="stylesheet" href="shop.css">
+  <link rel="stylesheet" href="/public/shop.css">
 </head>
 <body>
   <header>
     <h1>BhoomiJewels</h1>
     <nav>
-      <a href="index.php">Home</a>
-      <a href="shop.php">Shop</a>
-      <a href="cart.php">Cart</a>
+      <a href="/public/index.php">Home</a>
+      <a href="/public/shop.php">Shop</a>
+      <a href="/public/cart.php">Cart</a>
       <?php if (isset($_SESSION["user_name"])): ?>
-    <p>Welcome, <?= $_SESSION["user_name"]; ?> | <a href="logout.php">Logout</a></p>
+    <p>Welcome, <?= $_SESSION["user_name"]; ?> | <a href="/public/logout.php">Logout</a></p>
 <?php else: ?>
-    <a href="login.php">Login</a> | <a href="register.php">Register</a>
+    <a href="/public/login.php">Login</a> | <a href="/public/register.php">Register</a>
 <?php endif; ?>
     </nav>
   </header>
@@ -63,9 +63,9 @@ $result = $connect->query("SELECT * FROM products");
       <div class="footer-links">
         <h4>Quick Links</h4>
         <ul>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="shop.php">Shop</a></li>
-          <li><a href="cart.php">Cart</a></li>
+          <li><a href="/public/index.php">Home</a></li>
+          <li><a href="/public/shop.php">Shop</a></li>
+          <li><a href="/public/cart.php">Cart</a></li>
         </ul>
       </div>
   
