@@ -33,11 +33,11 @@
   <section class="gallery">
     <h2>Our Signature Designs</h2>
     <div class="scroll-container">
-      <img src="images/gold-necklace.jpg" alt="Jewellery 1">
-      <img src="images/diamond-ring.jpg" alt="Jewellery 2">
-      <img src="images/silver-bangles.jpg" alt="Jewellery 3">
-      <img src="images/elegant-gold-necklace.jpg" alt="Jewellery 4">
-      <img src="images/royal-ruby-ring.jpg" alt="Jewellery 5">
+      <img src="/public/images/gold-necklace.jpg" alt="Jewellery 1">
+      <img src="/public/images/diamond-ring.jpg" alt="Jewellery 2">
+      <img src="/public/images/silver-bangles.jpg" alt="Jewellery 3">
+      <img src="/public/images/elegant-gold-necklace.jpg" alt="Jewellery 4">
+      <img src="/public/images/royal-ruby-ring.jpg" alt="Jewellery 5">
     </div>
   </section>
 
@@ -82,9 +82,9 @@
       <div class="footer-social">
         <h4>Follow Us</h4>
         <div class="social-icons">
-          <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-          <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
-          <a href="#"><img src="images/twitter.jpg" alt="Twitter"></a>
+          <a href="#"><img src="/public/images/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="/public/images/instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="/public/images/twitter.jpg" alt="Twitter"></a>
         </div>
       </div>
     </div>

@@ -145,18 +145,18 @@ if (isset($_POST['remove'])) {
       <div class="footer-links">
         <h4>Quick Links</h4>
         <ul>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="shop.php">Shop</a></li>
-          <li><a href="cart.php">Cart</a></li>
+          <li><a href="/public/index.php">Home</a></li>
+          <li><a href="/public/shop.php">Shop</a></li>
+          <li><a href="/public/cart.php">Cart</a></li>
         </ul>
       </div>
   
       <div class="footer-social">
         <h4>Follow Us</h4>
         <div class="social-icons">
-          <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-          <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
-          <a href="#"><img src="images/twitter.jpg" alt="Twitter"></a>
+          <a href="#"><img src="/public/images/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="/public/images/instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="/public/images/twitter.jpg" alt="Twitter"></a>
         </div>
       </div>
     </div>

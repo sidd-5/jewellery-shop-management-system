@@ -34,10 +34,10 @@ $result = $connect->query("SELECT * FROM products");
     <div class="product-list">
       <?php while($row = $result->fetch_assoc()): ?>
         <div class="product">
-          <img src="images/<?php echo $row['image']; ?>" alt="<?php echo $row['name']; ?>">
+          <img src="/public/images/<?php echo $row['image']; ?>" alt="<?php echo $row['name']; ?>">
           <h3><?php echo $row['name']; ?></h3>
           <p>₹<?php echo $row['price']; ?></p>
-          <form action="cart.php" method="post">
+          <form action="/public/cart.php" method="post">
             <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
             <button type="submit" name="add_to_cart">Add to Cart</button>
           </form>
@@ -72,9 +72,9 @@ $result = $connect->query("SELECT * FROM products");
       <div class="footer-social">
         <h4>Follow Us</h4>
         <div class="social-icons">
-          <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-          <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
-          <a href="#"><img src="images/twitter.jpg" alt="Twitter"></a>
+          <a href="#"><img src="/public/images/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="/public/images/instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="/public/images/twitter.jpg" alt="Twitter"></a>
         </div>
       </div>
     </div>
